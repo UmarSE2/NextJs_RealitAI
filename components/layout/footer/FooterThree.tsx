@@ -38,9 +38,9 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info../..realitai.com">
+                    <Link href="mailto:info@realitai.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info../..realitai.net
+                      info@realitai.net
                     </Link>
                   </li>
                 </ul>
@@ -79,9 +79,9 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info../..realitai.com">
+                    <Link href="mailto:info@realitai.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info../..realitai.net
+                      info@realitai.net
                     </Link>
                   </li>
                 </ul>
@@ -116,9 +116,9 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info../..realitai.com">
+                    <Link href="mailto:info@realitai.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info../..realitai.net
+                      info@realitai.net
                     </Link>
                   </li>
                 </ul>
@@ -157,9 +157,9 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info../..realitai.com">
+                    <Link href="mailto:info@realitai.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info../..realitai.net
+                      info@realitai.net
                     </Link>
                   </li>
                 </ul>
@@ -194,9 +194,9 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info../..realitai.com">
+                    <Link href="mailto:info@realitai.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info../..realitai.net
+                      info@realitai.net
                     </Link>
                   </li>
                 </ul>

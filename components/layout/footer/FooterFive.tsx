@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../public/images/logo1.png";
+import logo from "../../../public/images/logo/whiteLogoBg.png";
 import gsap from "gsap";
 import chroma from "chroma-js";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -113,11 +113,11 @@ const FooterFive = () => {
             <div className="footer-two__left">
               <div className="logo">
                 <Link href="/">
-                  <Image src={logo} priority alt="Image" />
+                  <Image src={logo} priority alt="Image" width={1000} height={1000} style={{ width: '100%', height: '200px' }} />
                 </Link>
               </div>
-              <div className="paragraph">
-                <p>
+              <div className="">
+                <p style={{ color: "white !important" }}>
                   Welcome REALITAI We specialize in helping business most like
                   yours succeed online. From website design and development.
                 </p>
