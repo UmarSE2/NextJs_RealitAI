@@ -61,7 +61,7 @@ const HomeOneBanner = () => {
         }}
       >
         <div style={{
-          background: "rgba(0, 0, 0, 0.6)",
+          background: "rgba(0, 0, 0, 0.5)",
           position: "absolute",
           top: 0,
           left: 0,
@@ -85,7 +85,7 @@ const HomeOneBanner = () => {
                   </h1>
 
                   <div className="banner__content-inner">
-                    <p>
+                    <p style={{ color: "white !important" }}>
                       Realitai is a IT & AI Training and Development Agency,
                       specializing in providing comprehensive web, mobile, and
                       Web3 UX design solutions across various businesses for
@@ -110,8 +110,8 @@ const HomeOneBanner = () => {
 
         <Image src={star} alt="Image" className="star" />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:info../..realitai.com">
-            mail : info../..realitai.com
+          <Link href="mailto:info@realitai.com">
+            mail : info@realitai.com
           </Link>
           <Link href="tel:99-2158-003-6980">Call : +92 5161 03440</Link>
         </div>

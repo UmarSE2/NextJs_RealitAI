@@ -892,6 +892,13 @@
     .banner__content-inner {
       .cta {
         column-gap: 24px;
+        color: white !important;
+      }
+    }
+
+    .banner__content-inner {
+      p {
+        color: white !important;
       }
     }
   }
@@ -1165,6 +1172,7 @@
 
     .banner__content-inner {
       margin-top: 24px;
+      color: white !important;
 
       .cta {
         flex-direction: column;

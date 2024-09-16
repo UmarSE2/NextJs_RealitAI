@@ -125,11 +125,11 @@ const FooterFive = () => {
               <div className="section__content-cta">
                 <h2>
                   <Link
-                    href="mailto:info../..realitai.com"
+                    href="mailto:info@realitai.com"
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info../..realitai.net
+                    info@realitai.net
                     {animatedTextContent.split("").map((char, index) => (
                       <span
                         aria-hidden="true"
@@ -181,16 +181,16 @@ const FooterFive = () => {
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
                   +92 (51) 555-4120
                 </Link>
-                <Link href="mailto:info../..realitai.com">
+                <Link href="mailto:info@realitai.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info../..realitai.net
+                  info@realitai.net
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="footer__copyright">
+      <div className="footer__copyright" style={{ backgroundColor: "#6ccdac" }}>
         <div className="container">
           <div className="row align-items-center gaper">
             <div className="col-12 col-xl-6">

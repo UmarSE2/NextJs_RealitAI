@@ -41,12 +41,12 @@
     }
 
     h5 {
-      color: var(--primary-color);
+      color: white !important;
     }
 
     .single {
       p {
-        color: var(--secondary-color);
+        color: white !important;
         margin-top: 6px;
         text-transform: capitalize;
       }
@@ -81,7 +81,7 @@
 
     a {
       text-transform: uppercase;
-      color: var(--secondary-color);
+      color: white;
       font-weight: 500;
       font-size: 14px;
 

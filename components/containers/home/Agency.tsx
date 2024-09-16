@@ -95,7 +95,7 @@ const Agency = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="agency__content section__content">
-              <span className="sub-title">
+              <span className="sub-title" style={{ color: "black !important" }}>
                 WELCOME
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
@@ -104,7 +104,7 @@ const Agency = () => {
                 and Development
               </h2>
               <div className="paragraph">
-                <p>
+                <p style={{ color: "#17313b !important" }}>
                   REALITAI is a fusion of &#39;reality&#39; and &#39;AI&#39;. We
                   specialize in innovative technologies, artificial
                   intelligence, and data analysis. Our expertise in developing
@@ -123,7 +123,7 @@ const Agency = () => {
               <div className="skill-wrap">
                 <div className="skill-bar-single d-none">
                   <div className="skill-bar-title">
-                    <p className="primary-text">Website design</p>
+                    <p className="primary-text" style={{ color: "#17313b !important" }}>Website design</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="75%">
                     <div className="skill-bar">
@@ -135,7 +135,7 @@ const Agency = () => {
                 </div>
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p className="primary-text">Website design</p>
+                    <p className="primary-text" style={{ color: "#17313b !important" }}>Website design</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="75%">
                     <div className="skill-bar">
@@ -147,7 +147,7 @@ const Agency = () => {
                 </div>
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p className="primary-text">AI Development</p>
+                    <p className="primary-text" style={{ color: "#17313b !important" }}>AI Development</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="90%">
                     <div className="skill-bar">

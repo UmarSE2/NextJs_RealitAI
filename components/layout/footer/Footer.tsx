@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/newLogoBg.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -23,8 +23,8 @@ const Footer = () => {
         <div className="row gaper">
           <div className="col-12 col-lg-5 col-xl-6">
             <div className="footer__single">
-              <Link href="/" className="logo">
-                <Image src={logo} alt="Image" />
+              <Link href="/" className="">
+                <Image src={logo} alt="Image" width={300} height={300} style={{ maxWidth: "100%", height: "80px" }} />
               </Link>
               <div className="footer__single-meta">
                 <Link
@@ -39,9 +39,9 @@ const Footer = () => {
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
                   (051) 610-3440
                 </Link>
-                <Link href="mailto:info../..realitai.com">
+                <Link href="mailto:info@realitai.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info../..realitai.net
+                  info@realitai.net
                 </Link>
               </div>
               <div className="footer__cta text-start">
@@ -77,10 +77,10 @@ const Footer = () => {
           <div className="col-12 col-lg-5 col-xl-4">
             <div className="footer__single">
               <div className="footer__single-intro">
-                <h5>Subscribe our newsletter</h5>
+                <h5 style={{ color: "white !important" }}>Subscribe our newsletter</h5>
               </div>
               <div className="footer__single-content">
-                <p>
+                <p style={{ color: "white !important" }}>
                   Welcome to REALITAI We specialize in helping business most
                   like yours succeed online.
                 </p>
@@ -93,6 +93,7 @@ const Footer = () => {
                         id="subscribeNews"
                         placeholder="Enter Your Email"
                         required
+                        style={{ color: "white !important" }}
                       />
                       <button type="submit" className="subscribe">
                         <i className="fa-sharp fa-solid fa-paper-plane"></i>
@@ -110,7 +111,7 @@ const Footer = () => {
               <div className="row align-items-center gaper">
                 <div className="col-12 col-lg-8">
                   <div className="footer__copyright-text text-center text-lg-start">
-                    <p>
+                    <p style={{ color: "white !important" }}>
                       Copyright &copy;
                       <span id="copyYear">{currentYear}</span> A Venture by{" "}
                       <Link href="#" target="_blank">

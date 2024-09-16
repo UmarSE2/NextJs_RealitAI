@@ -84,9 +84,11 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           </li>
                         </ul>
                       </li>
-                      <li className="navbar__item nav-fade" style={{ color: "white !important" }}>
-                        <Link href="about-us">About Us</Link>
-                      </li>
+                      <Link href={"about-us"}
+                        className="navbar__about-label"
+                      >
+                        ABOUT US
+                      </Link>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button aria-label="dropdown menu" className="navbar__dropdown-label">
                           Services

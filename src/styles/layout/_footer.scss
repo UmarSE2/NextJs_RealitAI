@@ -131,7 +131,6 @@
 
 // footer two
 .footer-two {
-  background-color: var(--black);
 
   .logo {
     margin-bottom: 30px;
@@ -177,7 +176,7 @@
       width: 160px;
       min-width: 160px;
       height: 70px;
-      border: 1px solid #454545;
+      border: 1px solid white;
       border-radius: 100px;
       gap: 12px;
       background-color: transparent;
@@ -230,10 +229,10 @@
 
       a {
         text-transform: capitalize;
-        color: var(--white);
+        color: #17313b;
 
         &:hover {
-          color: var(--primary-color);
+          color: var(--white);
         }
       }
     }
@@ -442,7 +441,7 @@
 }
 
 .footer-cmn {
-  background-color: #6ccdac;
+  background-color: #17313b;
 }
 
 /* ==== 

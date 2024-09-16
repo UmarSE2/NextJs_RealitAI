@@ -84,6 +84,12 @@
     }
   }
 
+  .navbar__about-label {
+    position: relative;
+    justify-content: space-between;
+    color: #17313b !important;
+  }
+
   .navbar__sub-menu {
     position: absolute;
     top: 100%;
@@ -323,7 +329,7 @@
 
       a,
       button {
-        color: var(--white);
+        color: white;
         padding: 20px 80px 20px 20px;
         line-height: 1;
         font-size: 16px;
@@ -400,7 +406,7 @@
 
       a,
       button {
-        color: var(--white);
+        color: white;
         padding: 16px 20px;
         font-size: 16px;
 

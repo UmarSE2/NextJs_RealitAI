@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/newLogoBg.png";
 import gsap from "gsap";
 import chroma from "chroma-js";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -107,7 +107,7 @@ const FooterTwo = () => {
 
   return (
     <footer className="footer-two section pb-0">
-      <div className="container">
+      <div className="container" style={{ backgroundColor: "#17313b !important" }}>
         <div className="row gaper">
           <div className="col-12 col-lg-5 col-xl-4">
             <div className="footer-two__left">
@@ -182,9 +182,9 @@ const FooterTwo = () => {
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
                   (406) 555-4120
                 </Link>
-                <Link href="mailto:info../..realitai.com">
+                <Link href="mailto:info@realitai.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info../..realitai.net
+                  info@realitai.net
                 </Link>
               </div>
             </div>
