@@ -109,7 +109,7 @@ const FooterTwo = () => {
     <footer className="footer-two section pb-0">
       <div className="container" style={{ backgroundColor: "#17313b !important" }}>
         <div className="row gaper">
-          <div className="col-12 col-lg-5 col-xl-4">
+          <div className="col-12 col-lg-5 col-xl-4" style={{ paddingBottom: "20px" }}>
             <div className="footer-two__left">
               <div className="logo">
                 <Link href="/">
@@ -126,11 +126,11 @@ const FooterTwo = () => {
               <div className="section__content-cta">
                 <h2>
                   <Link
-                    href="mailto:info../..realitai.com"
+                    href="mailto:info@realitai.com"
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info../..realitai.com
+                    info@realitai.com
                     {animatedTextContent.split("").map((char, index) => (
                       <span
                         aria-hidden="true"

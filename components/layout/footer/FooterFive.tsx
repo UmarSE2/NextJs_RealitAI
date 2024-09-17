@@ -107,7 +107,7 @@ const FooterFive = () => {
 
   return (
     <footer className="footer-two footer-cmn section pb-0">
-      <div className="container">
+      <div className="container" style={{ paddingBottom: '20px' }}>
         <div className="row gaper">
           <div className="col-12 col-lg-5 col-xl-4">
             <div className="footer-two__left">
@@ -116,7 +116,7 @@ const FooterFive = () => {
                   <Image src={logo} priority alt="Image" width={1000} height={1000} style={{ width: '100%', height: '200px' }} />
                 </Link>
               </div>
-              <div className="">
+              <div className="" style={{ color: "white !important" }}>
                 <p style={{ color: "white !important" }}>
                   Welcome REALITAI We specialize in helping business most like
                   yours succeed online. From website design and development.

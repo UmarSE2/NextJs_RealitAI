@@ -84,6 +84,22 @@
     }
   }
 
+  .navbar__dropdown-label-team {
+    position: relative;
+    justify-content: space-between;
+    color: white !important;
+
+    &::after {
+      font-family: "Font Awesome 6 Pro";
+      font-weight: 900;
+      content: "\e093";
+      border: none;
+      transition: transform 0.3s ease-in-out;
+      font-size: inherit;
+      transform: rotate(0deg);
+    }
+  }
+
   .navbar__about-label {
     position: relative;
     justify-content: space-between;
@@ -519,14 +535,15 @@
     }
 
     .btn {
-      border: 1px solid var(--white);
+      border: 1px solid red;
 
       &::before {
-        background-color: var(--white);
+        background-color: red;
+        color: white;
       }
 
       &:hover {
-        border: 1px solid var(--white);
+        border: 1px solid red;
       }
     }
   }

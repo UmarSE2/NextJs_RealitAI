@@ -57,8 +57,8 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Mail Address</h4>
                 <p>
-                  <Link href="mailto:Info../..realitai.net">
-                    Info../..realitai.net
+                  <Link href="mailto:Info@realitai.net">
+                    Info@realitai.net
                   </Link>
                 </p>
               </div>

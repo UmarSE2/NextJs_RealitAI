@@ -226,9 +226,9 @@ const ProjectDetailsMain = () => {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-12">
-            <div className="quote-pj">
+        <div className="row" style={{ backgroundColor: "#17313b", marginTop: "20px" }}>
+          <div className="col-12" style={{ color: "white" }}>
+            <div className="quote-pj" style={{ borderColor: "white" }}>
               <div className="cont">
                 <div className="quote">
                   <i className="fa-solid fa-quote-right"></i>
@@ -239,7 +239,7 @@ const ProjectDetailsMain = () => {
                 </blockquote>
               </div>
               <div className="author">
-                <h4>- Justin Billing</h4>
+                <h4 style={{ color: "white" }}>- Justin Billing</h4>
               </div>
             </div>
           </div>

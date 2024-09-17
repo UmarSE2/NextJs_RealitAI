@@ -318,11 +318,11 @@
       border: 1px solid red;
 
       i {
-        color: var(--primary-color);
+        color: red;
       }
 
       &:hover {
-        border: 1px solid var(--primary-color);
+        border: 1px solid red;
 
         i {
           color: inherit;
@@ -386,6 +386,7 @@
     .single-item {
       min-width: 260px;
       opacity: 0.5;
+      color: white;
 
       p {
         margin: 12px 0px;
@@ -725,7 +726,7 @@
     font-size: 14px;
 
     a {
-      color: var(--theme-color);
+      color: white;
       font-weight: 600;
       font-size: 14px;
 
@@ -741,7 +742,7 @@
       position: absolute;
       left: 0px;
       font-size: 14px;
-      color: var(--theme-color);
+      color: white;
       padding: 0px;
     }
 

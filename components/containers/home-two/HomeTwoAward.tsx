@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import realitailogo from "../../../public/images/realitai.png";
+import realitailogo from "../../../public/images/logo/CompleteLogo.png";
 import star from "../../../public/images/star.png";
 import dotlarge from "../../../public/images/agency/dot-large.png";
 
@@ -16,6 +16,7 @@ const HomeTwoAward = () => {
                 src={realitailogo}
                 alt="Image"
                 className="unset fade-left"
+                style={{ width: "100%", height: "400px" }}
               />
             </div>
           </div>

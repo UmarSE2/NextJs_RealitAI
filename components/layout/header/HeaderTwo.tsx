@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import logo from "../../../public/images/logo/CompleteLogo.png";
+import logo from "../../../public/images/logo/LogoName.png";
 import logoLight from "../../../public/images/logo/CompleteLogo.png";
+import LogoBg from "../../../public/images/logo/LogoBg.png";
 import Offcanvas from "./Offcanvas";
 
 interface HeaderProps {
@@ -53,8 +54,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
               <div className="col-12">
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
-                    <Link href="/" aria-label="go to home">
-                      <Image src={logoSrc} priority alt="Image" width={150} height={60} />
+                    <Link href="/" aria-label="go to home" style={{ alignItems: "center" }}>
+                      <Image src={LogoBg} priority alt="Image" width={150} height={60} style={{ marginLeft: "30px" }} />
+                      <Image src={logoSrc} priority alt="Image" width={180} height={0} style={{ marginLeft: "-100px" }} />
                     </Link>
                   </div>
                   <div className="navbar__menu">
@@ -140,8 +142,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           </li>
                           <li className="navbar__item navbar__item--has-children">
                             <button
+                              style={{ color: "white !important" }}
                               aria-label="dropdown menu"
-                              className="navbar__dropdown-label navbar__dropdown-label-sub"
+                              className="navbar__dropdown-label-team navbar__dropdown-label-sub"
                             >
                               Team
                             </button>

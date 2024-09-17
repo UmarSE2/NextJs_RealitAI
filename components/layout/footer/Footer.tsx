@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer
       className="footer section pb-0"
-      style={{ backgroundImage: "url('/images/footer/footer-bg.png')", position: "relative" }}
+      style={{ backgroundImage: "url('/images/footer/footer-bg.png')", position: "relative", padding: "60px" }}
     >
       <div style={{
         background: "rgba(0, 0, 0, 0.6)",
@@ -105,9 +105,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row" >
           <div className="col-12">
-            <div className="footer__copyright">
+            <div className="footer__copyright" style={{ padding: "30px 0px" }}>
               <div className="row align-items-center gaper">
                 <div className="col-12 col-lg-8">
                   <div className="footer__copyright-text text-center text-lg-start">

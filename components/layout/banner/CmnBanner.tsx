@@ -14,18 +14,18 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
     <>
       <section
         className="cmn-banner bg-img"
-        style={{ backgroundImage: "url('/images/banner/cmn-banner-bg.jpg')" }}
+        style={{ backgroundImage: "url('/images/banner/cmn-banner-bg.png')" }}
       >
         <div className="container">
           <div className="row gaper align-items-center">
             <div className="col-12 col-lg-5 col-xl-7">
               <div className="text-center text-lg-start">
-                <h2 className="title title-anim">{title}</h2>
+                <h2 className="title title-anim" style={{ color: "#fff" }}>{title}</h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <Link href="/">
-                        <i className="fa-solid fa-house"></i>
+                      <Link href="/" style={{ color: "#fff" }}>
+                        <i className="fa-solid fa-house" style={{ color: "#fff" }}></i>
                         Home
                       </Link>
                     </li>
@@ -43,7 +43,7 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             </div>
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
-                <p className="primary-text">
+                <p className="primary-text" style={{ color: "#fff" }}>
                   Our team of experts is passionate about harnessing the power
                   of AI to drive growth and efficiency.
                 </p>

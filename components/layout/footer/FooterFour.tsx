@@ -2,8 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import logo from "../../../public/images/logo.png";
 import logoLight from "../../../public/images/logo-light.png";
+import logo from "../../../public/images/logo/LogoName.png";
+import LogoBg from "../../../public/images/logo/LogoBg.png";
 
 const FooterFour = () => {
   const currentYear = new Date().getFullYear();
@@ -20,7 +21,7 @@ const FooterFour = () => {
   }
 
   return (
-    <footer className="section footer-four pb-0">
+    <footer className="section footer-four pb-0" style={{ backgroundColor: "#17313b" }}>
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -39,7 +40,7 @@ const FooterFour = () => {
                       <i className="fa-regular fa-comment-dots"></i>
                     </Link>
                   </h3>
-                  <p>Let&apos;s make your brand the talk of the town</p>
+                  <p style={{ color: "#fff" }}>Let&apos;s make your brand the talk of the town</p>
                 </div>
               </div>
             </div>
@@ -68,16 +69,16 @@ const FooterFour = () => {
           <div className="col-12 col-lg-6">
             <div className="text-center text-lg-end">
               <Link
-                href="mailto:hello../..website.com"
+                href="mailto:hello@website.com"
                 className="text-capitalize"
               >
-                hello../..website.com
+                hello@website.com
               </Link>
             </div>
           </div>
         </div>
       </div>
-      <div className="footer-three__copyright mt-0">
+      <div className="footer-three__copyright mt-0" style={{ backgroundColor: "#6ccdac" }}>
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -85,7 +86,7 @@ const FooterFour = () => {
                 <div className="row align-items-center gaper">
                   <div className="col-12 col-lg-8">
                     <div className="footer__copyright-text text-center text-lg-start">
-                      <p>
+                      <p style={{ color: "white" }}>
                         Copyright &copy;{" "}
                         <span id="copyYear">{currentYear}</span> realitai by{" "}
                         <Link href="#" target="_blank">
@@ -97,8 +98,9 @@ const FooterFour = () => {
                   </div>
                   <div className="col-12 col-lg-4">
                     <div className="text-center text-lg-end">
-                      <Link href="/" className="logo">
-                        <Image src={logoSrc} alt="Image" />
+                      <Link href="/" aria-label="go to home" style={{ alignItems: "center" }}>
+                        <Image src={LogoBg} priority alt="Image" width={150} height={60} style={{ marginLeft: "30px" }} />
+                        <Image src={logo} priority alt="Image" width={180} height={0} style={{ marginLeft: "-100px" }} />
                       </Link>
                     </div>
                   </div>

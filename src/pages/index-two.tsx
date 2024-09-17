@@ -23,7 +23,7 @@ const HomeTwo = () => {
       <HomeTwoTestimonial />
       <HomeTwoBlog />
       <HomeTwoCta />
-      <NextPageNull />
+      {/* <NextPageNull /> */}
     </Layout>
   );
 };

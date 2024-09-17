@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo/whiteLogoBg.png";
 import Offcanvas from "./Offcanvas";
 
 interface HeaderProps {
@@ -32,9 +32,8 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
 
   const defaultClasses = "primary-navbar tertiary--navbar";
 
-  const combinedClasses = `${
-    scrolled ? " navbar-active" : " "
-  } ${defaultClasses}`;
+  const combinedClasses = `${scrolled ? " navbar-active" : " "
+    } ${defaultClasses}`;
 
   return (
     <>
@@ -46,7 +45,7 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
                     <Link href="/" aria-label="go to home">
-                      <Image src={logo} alt="Image" />
+                      <Image src={logo} alt="Image" style={{ width: "150px", height: "80px" }} />
                     </Link>
                   </div>
                   <div className="navbar__menu">
@@ -57,10 +56,10 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           (406) 555-0120
                         </Link>
                       </li>
-                      <li className="navbar__item nav-fade">
-                        <Link href="mailto:info../..realitai.com">
+                      <li className="navbar__item nav-fade" style={{ marginLeft: "20px" }}>
+                        <Link href="mailto:info@realitai.com">
                           <i className="fa-sharp fa-solid fa-envelope"></i>
-                          info../..realitai.com
+                          info@realitai.com
                         </Link>
                       </li>
                     </ul>

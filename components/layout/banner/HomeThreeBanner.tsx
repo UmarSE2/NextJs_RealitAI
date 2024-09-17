@@ -48,9 +48,8 @@ const HomeThreeBanner = () => {
                   <div className="row justify-content-end">
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
-                        <h1 className="light-title">
-                          Awesome IT & AI Training and Development Services for
-                          You.
+                        <h1 className="light-title" style={{ color: "white !important" }}>
+                          Awesome IT & AI Training and Development Services for You.
                         </h1>
                         <div className="section__content-cta cta">
                           <div className="arrow-wrapper d-none d-md-block">
@@ -82,7 +81,7 @@ const HomeThreeBanner = () => {
                   <div className="row justify-content-end">
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
-                        <h1 className="light-title">
+                        <h1 className="light-title" style={{ color: "white !important" }}>
                           Awesome IT & AI Services for Your Business
                         </h1>
                         <div className="section__content-cta cta">

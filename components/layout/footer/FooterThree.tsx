@@ -2,12 +2,14 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import thumb from "../../../public/images/footer/footer-three-thumb.png";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo/LogoName.png";
+import logoLight from "../../../public/images/logo/CompleteLogo.png";
+import LogoBg from "../../../public/images/logo/LogoBg.png";
 
 const FooterThree = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="section footer-three pb-0">
+    <footer className="section footer-three pb-0" style={{ backgroundColor: "#003754", padding: "40px 0" }}>
       <div className="container">
         <div className="row gaper align-items-start">
           <div className="col-12 col-lg-4">
@@ -15,7 +17,7 @@ const FooterThree = () => {
               <div className="footer-thumb">
                 <Image src={thumb} alt="Image" />
                 <div className="footer-thumb__content">
-                  <h5>head quarters, USA</h5>
+                  <h5 style={{ color: "white" }}>head quarters, USA</h5>
                 </div>
               </div>
               <div className="footer-three__group ps-0">
@@ -60,7 +62,7 @@ const FooterThree = () => {
             <div className="group-wrapper">
               <div className="footer-three__group">
                 <div className="intro">
-                  <h5>Germany</h5>
+                  <h5 style={{ color: "white" }}>Germany</h5>
                 </div>
                 <ul>
                   <li>
@@ -97,7 +99,7 @@ const FooterThree = () => {
               </div>
               <div className="footer-three__group section__content-cta">
                 <div className="intro">
-                  <h5>France</h5>
+                  <h5 style={{ color: "white" }}>France</h5>
                 </div>
                 <ul>
                   <li>
@@ -138,7 +140,7 @@ const FooterThree = () => {
             <div className="group-wrapper">
               <div className="footer-three__group">
                 <div className="intro">
-                  <h5>Poland</h5>
+                  <h5 style={{ color: "white" }}>Poland</h5>
                 </div>
                 <ul>
                   <li>
@@ -175,7 +177,7 @@ const FooterThree = () => {
               </div>
               <div className="footer-three__group section__content-cta">
                 <div className="intro">
-                  <h5>Bangladesh</h5>
+                  <h5 style={{ color: "white" }}>Bangladesh</h5>
                 </div>
                 <ul>
                   <li>
@@ -214,7 +216,7 @@ const FooterThree = () => {
           </div>
         </div>
       </div>
-      <div className="footer-three__copyright">
+      <div className="footer-three__copyright" style={{ backgroundColor: "#fff", padding: "0" }}>
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -238,7 +240,10 @@ const FooterThree = () => {
                   <div className="col-12 col-lg-4">
                     <div className="text-center text-lg-end">
                       <Link href="/" className="logo">
-                        <Image src={logo} alt="Image" />
+                        <Link href="/" aria-label="go to home" style={{ alignItems: "center" }}>
+                          <Image src={LogoBg} priority alt="Image" width={150} height={60} style={{ marginLeft: "30px" }} />
+                          <Image src={logo} priority alt="Image" width={180} height={0} style={{ marginLeft: "-100px" }} />
+                        </Link>
                       </Link>
                     </div>
                   </div>

@@ -40,7 +40,7 @@ const HomeThreePortfolio = () => {
               </h2>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
@@ -99,7 +99,7 @@ const HomeThreePortfolio = () => {
                 </Link>
               </h2>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
       <div className="container">

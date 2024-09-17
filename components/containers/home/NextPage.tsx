@@ -6,7 +6,7 @@ import "swiper/swiper-bundle.css";
 
 const NextPage = () => {
   return (
-    <section className="section next-page">
+    <section className="section next-page" style={{ padding: "0" }}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-8">
@@ -19,7 +19,7 @@ const NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="next__text-slider-w">
+      {/* <div className="next__text-slider-w">
         <Swiper
           slidesPerView="auto"
           spaceBetween={40}
@@ -44,8 +44,8 @@ const NextPage = () => {
                 </Link>
               </h2>
             </div>
-          </SwiperSlide>
-          {/* <SwiperSlide>
+          </SwiperSlide> */}
+      {/* <SwiperSlide>
             <div className="next__text-slider-single">
               <h2 className="h1 str">
                 <Link href="about-us">
@@ -155,8 +155,8 @@ const NextPage = () => {
               </h2>
             </div>
           </SwiperSlide> */}
-        </Swiper>
-      </div>
+      {/* </Swiper>
+      </div> */}
       {/* <div className="lines d-none d-lg-flex">
         <div className="line"></div>
         <div className="line"></div>

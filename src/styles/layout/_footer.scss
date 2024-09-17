@@ -217,9 +217,9 @@
   }
 
   .footer__copyright {
-    padding: 40px 0px;
+    padding: 20px 0px;
     border-top: 1px solid #454545;
-    margin-top: 65px;
+    // margin-top: 65px;
 
     ul {
       display: flex;
@@ -304,7 +304,7 @@
       line-height: 1.4;
 
       i {
-        color: var(--secondary-color);
+        color: white;
         transition: var(--transition);
       }
 
@@ -331,7 +331,7 @@
   }
 
   .footer-three__copyright {
-    padding: 40px 0px;
+    padding: 20px 0px;
     border-top: 1px solid #454545;
     margin-top: 65px;
 
@@ -376,13 +376,14 @@
   .cta-t {
     a {
       width: 100%;
-      padding: 80px 20px;
+      padding: 50px 10px;
       justify-content: center;
       display: flex;
       gap: 40px;
       text-transform: uppercase;
-      background-color: var(--white);
+      background-color: #17313b;
       color: var(--black);
+      border: 1px solid white;
       border-radius: 200px;
 
       &:hover {
@@ -417,7 +418,6 @@
   }
 
   .footer-three__copyright {
-    padding: 40px 0px;
     border-top: 1px solid #454545;
 
     .gaper {
