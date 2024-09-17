@@ -116,8 +116,8 @@ const FooterTwo = () => {
                   <Image src={logo} priority alt="Image" />
                 </Link>
               </div>
-              <div className="paragraph">
-                <p>
+              <div className="" style={{ color: "white !important" }}>
+                <p style={{ color: "white !important" }}>
                   Welcome to REALITAI We specialize in helping business most
                   like yours succeed online. From website design and
                   development.

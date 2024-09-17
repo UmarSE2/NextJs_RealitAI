@@ -348,7 +348,7 @@
   }
 
   .portfolio__single-alt-wrapper {
-    background-color: #f3e8fd;
+    background-color: #17313b;
     padding: 20px;
     border: 1px solid var(--primary-color);
     height: 100%;
@@ -360,7 +360,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f3e8fd;
+    background-color: #17313b;
     z-index: 1;
     min-height: 300px;
 
@@ -1664,7 +1664,7 @@
 
   button {
     @include box(50px);
-    background-image: linear-gradient(#00c4f4, #f3e8fd);
+    background-image: linear-gradient(#00c4f4, #17313b);
 
     position: absolute !important;
     top: 50%;
@@ -3384,7 +3384,7 @@
     }
 
     .btn {
-      background-color: #f3e8fd;
+      background-color: #17313b;
       color: #646464;
       text-transform: capitalize;
       border: 1px solid #414141 !important;
@@ -4061,7 +4061,7 @@
         width: 10px;
         height: 10px;
         margin-top: -8px;
-        border-color: #f3e8fd;
+        border-color: #17313b;
       }
 
       .list {

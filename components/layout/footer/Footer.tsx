@@ -54,7 +54,7 @@ const Footer = () => {
           <div className="col-12 col-lg-2 col-xl-2">
             <div className="footer__single">
               <div className="footer__single-intro" style={{ color: "white !important" }}>
-                <h5>discover</h5>
+                <h5 style={{ color: "white !important" }}>discover</h5>
               </div>
               <div className="footer__single-content">
                 <ul>
@@ -76,10 +76,10 @@ const Footer = () => {
           </div>
           <div className="col-12 col-lg-5 col-xl-4">
             <div className="footer__single">
-              <div className="footer__single-intro">
+              <div className="footer__single-intro" style={{ color: "white !important" }}>
                 <h5 style={{ color: "white !important" }}>Subscribe our newsletter</h5>
               </div>
-              <div className="footer__single-content">
+              <div className="footer__single-content" style={{ color: "white !important" }}>
                 <p style={{ color: "white !important" }}>
                   Welcome to REALITAI We specialize in helping business most
                   like yours succeed online.

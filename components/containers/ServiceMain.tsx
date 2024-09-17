@@ -45,7 +45,7 @@ const ServiceMain = () => {
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
-                        <span className="sub-title">
+                        <span className="sub-title" style={{ color: "#17313b !important" }}>
                           01
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
@@ -75,7 +75,7 @@ const ServiceMain = () => {
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
-                        <span className="sub-title">
+                        <span className="sub-title" style={{ color: "#17313b !important" }}>
                           02
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
@@ -103,7 +103,7 @@ const ServiceMain = () => {
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
-                        <span className="sub-title">
+                        <span className="sub-title" style={{ color: "#17313b !important" }}>
                           03
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
@@ -131,7 +131,7 @@ const ServiceMain = () => {
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
-                        <span className="sub-title">
+                        <span className="sub-title" style={{ color: "#17313b !important" }}>
                           04
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
@@ -159,7 +159,7 @@ const ServiceMain = () => {
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
-                        <span className="sub-title">
+                        <span className="sub-title" style={{ color: "#17313b !important" }}>
                           05
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
@@ -187,7 +187,7 @@ const ServiceMain = () => {
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
-                        <span className="sub-title">
+                        <span className="sub-title" style={{ color: "#17313b !important" }}>
                           06
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
@@ -215,7 +215,7 @@ const ServiceMain = () => {
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
-                        <span className="sub-title">
+                        <span className="sub-title" style={{ color: "#17313b !important" }}>
                           07
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
@@ -243,7 +243,7 @@ const ServiceMain = () => {
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
-                        <span className="sub-title">
+                        <span className="sub-title" style={{ color: "#17313b !important" }}>
                           08
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>

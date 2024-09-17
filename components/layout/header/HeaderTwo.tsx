@@ -191,7 +191,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       aria-label="toggle mobile menu"
                       onClick={handleNav}
                     >
-                      <i className="fa-light fa-bars-staggered"></i>
+                      <i className="fa-light fa-bars-staggered" style={{ color: "#17313b" }}></i>
                     </button>
                   </div>
                 </nav>

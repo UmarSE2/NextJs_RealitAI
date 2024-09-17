@@ -263,7 +263,7 @@
     transition: var(--transition);
     z-index: 9999;
     transition: all 0.6s ease-in-out;
-    background-color: #f3e8fd;
+    background-color: #17313b;
 
     &::before {
       content: "Explore Pages";
@@ -297,7 +297,7 @@
     .offcanvas-menu__wrapper {
       position: fixed;
       inset: 0px;
-      background-color: transparent;
+      background-color: #17313b;
       z-index: 9999;
       padding: 60px 100px 60px 60px;
       height: 100vh;
@@ -472,7 +472,7 @@
 
 // tertiary navbar
 .tertiary--navbar {
-  background-color: #f3e8fd;
+  background-color: #17313b;
   overflow-x: clip;
 
   .navbar__item {
@@ -488,7 +488,7 @@
   .open-offcanvas-nav {
     padding: 25px 40px;
     flex-direction: column;
-    background-color: #f3e8fd;
+    background-color: #17313b;
     text-transform: uppercase;
     font-size: 14px;
 
@@ -497,7 +497,7 @@
     }
 
     &:hover {
-      background-image: linear-gradient(#00c4f4, #f3e8fd);
+      background-image: linear-gradient(#00c4f4, #17313b);
 
       color: var(--black);
     }
@@ -505,7 +505,7 @@
 
   .tertiary-cta {
     padding: 21px 0px 21px 120px;
-    background-image: linear-gradient(#00c4f4, #f3e8fd);
+    background-image: linear-gradient(#00c4f4, #17313b);
     position: relative;
 
     &::before {
@@ -515,7 +515,7 @@
       bottom: 0px;
       left: 90%;
       min-width: 50vw;
-      background-image: linear-gradient(#00c4f4, #f3e8fd);
+      background-image: linear-gradient(#00c4f4, #17313b);
     }
 
     .btn {
