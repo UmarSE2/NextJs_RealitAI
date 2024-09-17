@@ -16,7 +16,7 @@ import dot from "../../../public/images/portfolio/dot.png";
 const PortfolioText = () => {
   const [hover, setHover] = useState(0);
   return (
-    <section className="section portfolio pb-0 fade-wrapper position-relative" style={{ backgroundColor: "#003754", padding: "40px 0" }}>
+    <section className="section portfolio pb-0 fade-wrapper position-relative" style={{ backgroundColor: "var(--blue-color)", padding: "40px 0" }}>
       <div className="portfolio__text-slider-w">
         <Swiper
           slidesPerView="auto"
@@ -36,7 +36,7 @@ const PortfolioText = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio" style={{ color: "white" }}>
+                <Link href="portfolio" style={{ color: "#17313b" }}>
                   digital portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>

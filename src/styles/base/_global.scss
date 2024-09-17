@@ -361,10 +361,10 @@ i {
 
 .slide-btn {
   @include box(74px);
-  border: 1px solid #414141;
+  border: 1px solid #fff;
   transition: var(--transition);
   background-color: transparent;
-  color: #414141;
+  color: #fff;
   font-size: 40px;
   z-index: 2;
 

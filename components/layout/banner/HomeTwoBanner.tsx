@@ -40,7 +40,7 @@ const HomeTwoBanner = () => {
   return (
     <section
       className="banner-two"
-      style={{ backgroundImage: "url('/images/banner/banner-two-bg.jpg')" }}
+      style={{ backgroundImage: "url('/images/banner/banner-two-bg.png')" }}
     >
       <div className="container">
         <div className="row">
@@ -55,22 +55,22 @@ const HomeTwoBanner = () => {
                 <div className="cta section__content-cta m-0">
                   <div className="single">
                     <h5 className="fw-7">10+</h5>
-                    <p className="fw-5">years of experience</p>
+                    <p className="fw-5" style={{ color: "#fff" }}>years of experience</p>
                   </div>
                   <div className="single">
                     <h5 className="fw-7">25k</h5>
-                    <p className="fw-5">completed projects</p>
+                    <p className="fw-5" style={{ color: "#fff" }}>completed projects</p>
                   </div>
                 </div>
               </div>
               <div className="banner-two__content">
-                <h1 className="title-anim">
+                <h1 className="title-anim" style={{ color: "#fff" }}>
                   THE <span>IT & AI Training and Development</span> AGENCY FOR
                   EXCELLENT SERVICES
                 </h1>
                 <div className="banner-two__content-cta section__content-cta">
                   <div className="paragraph">
-                    <p>
+                    <p style={{ color: "#fff" }}>
                       Realitai is an IT & AI Training and Development Agency,
                       specializing in providing comprehensive web, mobile, and
                       Web3 UX design solutions across various businesses for

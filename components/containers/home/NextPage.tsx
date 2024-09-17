@@ -6,7 +6,7 @@ import "swiper/swiper-bundle.css";
 
 const NextPage = () => {
   return (
-    <section className="section next-page" style={{ padding: "0" }}>
+    <section className="section next-page" style={{ padding: "80px 0px 0px 0px" }}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-8">

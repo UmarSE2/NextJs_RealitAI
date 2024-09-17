@@ -115,7 +115,7 @@ const BlogDetailsMain = () => {
                 </div>
                 <div className="tags-right">
                   <p>Share:</p>
-                  <ul className="social">
+                  <ul className="social" style={{ paddingTop: "0px" }}>
                     <li>
                       <Link href="/" aria-label="social media">
                         <i className="fa-brands fa-facebook-f"></i>

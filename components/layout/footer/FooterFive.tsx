@@ -106,7 +106,7 @@ const FooterFive = () => {
   }, []);
 
   return (
-    <footer className="footer-two footer-cmn section pb-0">
+    <footer className="footer-two footer-cmn section pb-0" style={{ padding: "20px 0px" }}>
       <div className="container" style={{ paddingBottom: '20px' }}>
         <div className="row gaper">
           <div className="col-12 col-lg-5 col-xl-4">

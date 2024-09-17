@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CtaTwo = () => {
   return (
-    <section className="cta-two section">
+    <section className="cta-two section" style={{ padding: 0 }}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-xxl-11">

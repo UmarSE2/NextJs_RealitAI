@@ -106,7 +106,7 @@ const FooterTwo = () => {
   }, []);
 
   return (
-    <footer className="footer-two section pb-0">
+    <footer className="footer-two section pb-0" style={{ backgroundColor: "#17313b !important", marginTop: "40px 0px 0px 0px" }}>
       <div className="container" style={{ backgroundColor: "#17313b !important" }}>
         <div className="row gaper">
           <div className="col-12 col-lg-5 col-xl-4" style={{ paddingBottom: "20px" }}>
@@ -191,7 +191,7 @@ const FooterTwo = () => {
           </div>
         </div>
       </div>
-      <div className="footer__copyright">
+      <div className="footer__copyright" style={{ backgroundColor: "#6ccdac !important" }}>
         <div className="container">
           <div className="row align-items-center gaper">
             <div className="col-12 col-xl-6">

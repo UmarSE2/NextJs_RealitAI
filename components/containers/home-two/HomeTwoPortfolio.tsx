@@ -18,7 +18,7 @@ const HomeTwoPortfolio = () => {
     setActiveFilter(filter);
   };
   return (
-    <section className="section portfolio portfolio-two portfolio-filter fade-wrapper">
+    <section className="section portfolio portfolio-two portfolio-filter fade-wrapper" style={{ backgroundColor: "var(--blue-color)" }}>
       <div className="portfolio__text-slider-w">
         <Swiper
           slidesPerView="auto"
@@ -45,7 +45,7 @@ const HomeTwoPortfolio = () => {
               </h2>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
@@ -104,7 +104,7 @@ const HomeTwoPortfolio = () => {
                 </Link>
               </h2>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
       <div className="container">
@@ -148,11 +148,10 @@ const HomeTwoPortfolio = () => {
         </div>
         <div className="row masonry-grid">
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main technology ${
-              activeFilter === ".technology" || activeFilter === "*"
-                ? ""
-                : "hidden"
-            }`}
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main technology ${activeFilter === ".technology" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
@@ -169,11 +168,10 @@ const HomeTwoPortfolio = () => {
             </div>
           </div>
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main development ${
-              activeFilter === ".development" || activeFilter === "*"
-                ? ""
-                : "hidden"
-            }`}
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main development ${activeFilter === ".development" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
@@ -190,11 +188,10 @@ const HomeTwoPortfolio = () => {
             </div>
           </div>
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main development ${
-              activeFilter === ".development" || activeFilter === "*"
-                ? ""
-                : "hidden"
-            }`}
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main development ${activeFilter === ".development" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
@@ -211,11 +208,10 @@ const HomeTwoPortfolio = () => {
             </div>
           </div>
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main technology ${
-              activeFilter === ".technology" || activeFilter === "*"
-                ? ""
-                : "hidden"
-            }`}
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main technology ${activeFilter === ".technology" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
@@ -232,9 +228,8 @@ const HomeTwoPortfolio = () => {
             </div>
           </div>
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main design ${
-              activeFilter === ".design" || activeFilter === "*" ? "" : "hidden"
-            }`}
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main design ${activeFilter === ".design" || activeFilter === "*" ? "" : "hidden"
+              }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
@@ -251,11 +246,10 @@ const HomeTwoPortfolio = () => {
             </div>
           </div>
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main development ${
-              activeFilter === ".development" || activeFilter === "*"
-                ? ""
-                : "hidden"
-            }`}
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main development ${activeFilter === ".development" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">

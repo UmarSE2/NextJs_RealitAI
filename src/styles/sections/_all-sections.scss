@@ -445,6 +445,7 @@
       align-items: flex-start;
       justify-content: flex-start;
       text-transform: uppercase;
+      color: #17313b;
 
       span {
         color: #474747;
@@ -464,7 +465,7 @@
       color: var(--primary-color);
 
       span {
-        color: var(--white);
+        color: #6ccdac;
       }
     }
   }
@@ -3255,7 +3256,7 @@
 
         a {
           font-size: 14px;
-          color: #646464;
+          color: #fff;
           padding: 6px 10px;
           border-radius: 30px;
           background-color: #1b1b1b;
@@ -3270,6 +3271,7 @@
 
     .tags-right {
       justify-content: flex-end;
+      align-items: center;
 
       .social {
         gap: 12px;
@@ -3277,8 +3279,8 @@
 
       a {
         @include box(30px);
-        border: 1px solid #414141;
-        color: #d9d9d9;
+        border: 1px solid #000;
+        color: #000;
         font-size: 12px;
         background-color: transparent;
 
@@ -3390,7 +3392,7 @@
 
     .btn {
       background-color: #17313b;
-      color: #646464;
+      color: #fff;
       text-transform: capitalize;
       border: 1px solid #414141 !important;
       display: flex;
@@ -3435,9 +3437,10 @@
     border-radius: 5px;
     width: 100%;
     text-transform: capitalize;
+    color: #fff;
 
     &::placeholder {
-      color: #969696;
+      color: #fff;
     }
   }
 

@@ -16,7 +16,7 @@ const HomeTestimonial = () => {
     setNextSlideIndex(nextIndex);
   };
   return (
-    <section className="section testimonial pt-0 position-relative" style={{ backgroundColor: "#003754", padding: "40px 0" }}>
+    <section className="section testimonial pt-0 position-relative" style={{ backgroundColor: "var(--blue-color)", padding: "40px 0" }}>
       <div className="testimonial__text-slider-w">
         <Swiper
           slidesPerView="auto"
@@ -46,7 +46,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio" style={{ color: "white", paddingTop: "20px" }}>
+                <Link href="portfolio" style={{ color: "#17313b", paddingTop: "20px" }}>
                   Client&apos;s Testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>

@@ -7,7 +7,7 @@ import dotlarge from "../../../public/images/agency/dot-large.png";
 
 const HomeTwoAward = () => {
   return (
-    <section className="section award">
+    <section className="section award" style={{ backgroundColor: "var(--blue-color)" }}>
       <div className="container">
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-6">
@@ -40,17 +40,17 @@ const HomeTwoAward = () => {
               <div className="award__content-meta">
                 <div className="single">
                   <h4>2018</h4>
-                  <h4>Awwwards</h4>
+                  <h4 style={{ color: "#17313b" }}>Awards</h4>
                   <p>Website of the day</p>
                 </div>
                 <div className="single">
                   <h4>2020</h4>
-                  <h4>Awwwards</h4>
+                  <h4 style={{ color: "#17313b" }}>Awards</h4>
                   <p>National design contest</p>
                 </div>
                 <div className="single">
                   <h4>2022</h4>
-                  <h4>Awwwards</h4>
+                  <h4 style={{ color: "#17313b" }}>Awards</h4>
                   <p>Apps of the day</p>
                 </div>
               </div>
