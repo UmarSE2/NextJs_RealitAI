@@ -12,7 +12,7 @@ import six from "../../../public/images/sponsor/six.png";
 
 const AboutSponsor = () => {
   return (
-    <div className="sponsor">
+    <div className="sponsor" style={{ marginTop: "60px" }}>
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-12">

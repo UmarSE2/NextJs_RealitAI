@@ -11,7 +11,7 @@ import five from "../../public/images/achievement/five.png";
 
 const OurAchievement = () => {
   return (
-    <section className="section achievements">
+    <section className="section achievements" style={{ padding: "80px 20px", backgroundColor: "var(--blue-color)" }}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-8">

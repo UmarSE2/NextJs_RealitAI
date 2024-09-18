@@ -19,7 +19,7 @@ const IT_Telecom = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row" style={{ padding: "30px" }}>
           <div className="col-12">
             <div className="service-f-wrapper">
               <div

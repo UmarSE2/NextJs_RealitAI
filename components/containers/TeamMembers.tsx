@@ -14,9 +14,9 @@ import seven from "../../public/images/teams/seven.png";
 
 const TeamMembers = () => {
   return (
-    <section className="section team-slider-s">
-      <div className="container">
-        <div className="row">
+    <section className="section team-slider-s" style={{ padding: '40px 0px 100px' }}>
+      <div className="container" >
+        <div className="row" style={{ padding: "0px 30px" }}>
           <div className="col-12">
             <div className="section__header--secondary">
               <div className="row gaper align-items-center">

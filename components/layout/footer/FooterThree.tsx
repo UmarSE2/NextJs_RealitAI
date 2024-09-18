@@ -226,14 +226,7 @@ const FooterThree = () => {
                     <div className="footer__copyright-text text-center text-lg-start">
                       <p>
                         Copyright &copy;
-                        <span id="copyYear">{currentYear}</span> realitai by{" "}
-                        <Link
-                          href="https://themeforest.net/user/UltraDevs"
-                          target="_blank"
-                        >
-                          UltraDevs
-                        </Link>{" "}
-                        . All Rights Reserved
+                        <span id="copyYear">{currentYear}</span> RealitAI. All Rights Reserved
                       </p>
                     </div>
                   </div>

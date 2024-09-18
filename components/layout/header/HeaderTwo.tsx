@@ -49,13 +49,13 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
     <>
       <header className="header" style={{ backgroundColor: "white !important" }}>
         <div className={combinedClasses}>
-          <div className="container">
+          <div className="px-4">
             <div className="row">
               <div className="col-12">
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
                     <Link href="/" aria-label="go to home" style={{ alignItems: "center" }}>
-                      <Image src={LogoBg} priority alt="Image" width={150} height={60} style={{ marginLeft: "30px" }} />
+                      <Image src={LogoBg} priority alt="Image" width={150} height={60} />
                       <Image src={logoSrc} priority alt="Image" width={180} height={0} style={{ marginLeft: "-100px" }} />
                     </Link>
                   </div>

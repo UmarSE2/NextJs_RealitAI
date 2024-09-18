@@ -162,7 +162,7 @@ const HomeTestimonial = () => {
                           </svg>
                         </div>
                       </div>
-                      <div className="col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1">
+                      <div className="col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1" style={{ backgroundColor: "white" }}>
                         <div className="testimonial-s__content">
                           <div className="quote">
                             <i className="fa-solid fa-quote-right"></i>
@@ -210,7 +210,7 @@ const HomeTestimonial = () => {
                           </svg>
                         </div>
                       </div>
-                      <div className="col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1">
+                      <div className="col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1" style={{ backgroundColor: "white" }}>
                         <div className="testimonial-s__content">
                           <div className="quote">
                             <i className="fa-solid fa-quote-right"></i>
@@ -254,7 +254,7 @@ const HomeTestimonial = () => {
                           </svg>
                         </div>
                       </div>
-                      <div className="col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1">
+                      <div className="col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1" style={{ backgroundColor: "white" }}>
                         <div className="testimonial-s__content">
                           <div className="quote">
                             <i className="fa-solid fa-quote-right"></i>

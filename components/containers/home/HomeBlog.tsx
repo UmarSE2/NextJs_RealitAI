@@ -6,7 +6,7 @@ import two from "../../../public/images/blog/two.png";
 
 const HomeBlog = () => {
   return (
-    <section className="section blog fade-wrapper">
+    <section className="section blog fade-wrapper" style={{ padding: "100px 20px" }}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-8">

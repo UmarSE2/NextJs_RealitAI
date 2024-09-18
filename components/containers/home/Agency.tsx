@@ -76,7 +76,7 @@ const Agency = () => {
   return (
     <section className="section agency">
       <div className="container">
-        <div className="row gaper align-items-center">
+        <div className="row gaper align-items-center" style={{ padding: "0px 30px" }}>
           <div className="col-12 col-lg-6">
             <div className="agency__thumb">
               <Image

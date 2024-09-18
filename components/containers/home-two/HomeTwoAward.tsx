@@ -10,7 +10,7 @@ const HomeTwoAward = () => {
     <section className="section award" style={{ backgroundColor: "var(--blue-color)" }}>
       <div className="container">
         <div className="row gaper align-items-center">
-          <div className="col-12 col-lg-6">
+          <div className="col-12 col-lg-5">
             <div className="award__thumb dir-rtl">
               <Image
                 src={realitailogo}

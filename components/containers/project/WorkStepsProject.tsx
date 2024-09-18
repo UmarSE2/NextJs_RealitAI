@@ -37,7 +37,7 @@ const WorkStepsProject = () => {
 
   return (
     <>
-      <section className="section work-steps work-alt fade-wrapper">
+      <section className="section work-steps work-alt fade-wrapper" style={{ padding: "100px 30px" }}>
         <div className="container">
           <div className="row">
             <div className="col-12">

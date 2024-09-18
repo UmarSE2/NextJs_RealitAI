@@ -88,11 +88,7 @@ const FooterFour = () => {
                     <div className="footer__copyright-text text-center text-lg-start">
                       <p style={{ color: "white" }}>
                         Copyright &copy;{" "}
-                        <span id="copyYear">{currentYear}</span> realitai by{" "}
-                        <Link href="#" target="_blank">
-                          UltraDevs{" "}
-                        </Link>
-                        . All Rights Reserved
+                        <span id="copyYear">{currentYear}</span> RealitAI. All Rights Reserved
                       </p>
                     </div>
                   </div>

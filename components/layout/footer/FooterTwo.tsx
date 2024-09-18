@@ -106,8 +106,8 @@ const FooterTwo = () => {
   }, []);
 
   return (
-    <footer className="footer-two section pb-0" style={{ backgroundColor: "#17313b !important", marginTop: "40px 0px 0px 0px" }}>
-      <div className="container" style={{ backgroundColor: "#17313b !important" }}>
+    <footer className="footer-two section pb-0" style={{ backgroundColor: "#17313b", marginTop: "40px", padding: "60px 0px 0px 0px" }}>
+      <div className="container">
         <div className="row gaper">
           <div className="col-12 col-lg-5 col-xl-4" style={{ paddingBottom: "20px" }}>
             <div className="footer-two__left">
@@ -116,8 +116,8 @@ const FooterTwo = () => {
                   <Image src={logo} priority alt="Image" />
                 </Link>
               </div>
-              <div className="" style={{ color: "white !important" }}>
-                <p style={{ color: "white !important" }}>
+              <div>
+                <p style={{ color: "white" }}>
                   Welcome to REALITAI We specialize in helping business most
                   like yours succeed online. From website design and
                   development.
@@ -191,22 +191,14 @@ const FooterTwo = () => {
           </div>
         </div>
       </div>
-      <div className="footer__copyright" style={{ backgroundColor: "#6ccdac !important" }}>
+      <div className="footer__copyright" style={{ backgroundColor: "#6ccdac" }}>
         <div className="container">
           <div className="row align-items-center gaper">
             <div className="col-12 col-xl-6">
               <div className="footer__copyright-text text-center text-xl-start">
                 <p>
                   Copyright &copy;
-                  <span id="copyYear">{currentYear}</span> realitai by{" "}
-                  <Link
-                    href="https://themeforest.net/user/UltraDevs"
-                    target="_blank"
-                  >
-                    {" "}
-                    UltraDevs
-                  </Link>{" "}
-                  . All Rights Reserved
+                  <span id="copyYear">{currentYear}</span> realitai by. All Rights Reserved
                 </p>
               </div>
             </div>

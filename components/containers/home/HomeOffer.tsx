@@ -33,7 +33,7 @@ const HomeOffer = () => {
   return (
     <section className="section offer fade-wrapper light">
       <div className="container">
-        <div className="row gaper">
+        <div className="row gaper" style={{ padding: "0px 30px" }}>
           <div className="col-12 col-lg-5">
             <div className="offer__content section__content">
               <span className="sub-title">

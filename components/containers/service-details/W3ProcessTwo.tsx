@@ -4,7 +4,7 @@ const IT_TelecomTwo = () => {
   const [imgTab, setImgTab] = useState(0);
 
   return (
-    <section className="section ux-process fade-wrapper">
+    <section className="section ux-process fade-wrapper" style={{ padding: "100px 30px" }}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-8">

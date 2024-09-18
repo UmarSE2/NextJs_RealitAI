@@ -5,7 +5,7 @@ import two from "../../public/images/mission/two.png";
 
 const OurMission = () => {
   return (
-    <section className="section mission-s fade-wrapper">
+    <section className="section mission-s fade-wrapper" style={{ padding: "100px 30px 0px" }}>
       <div className="container">
         <div className="row">
           <div className="col-12">

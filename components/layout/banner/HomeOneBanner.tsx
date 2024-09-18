@@ -75,7 +75,7 @@ const HomeOneBanner = () => {
             <div className="col-12">
               <div className="banner-three__slider-single">
                 {/* ":   growth through AI" */}
-                <div className="banner__content">
+                <div className="banner__content" style={{ padding: "0px 50px" }}>
                   <h1 className="text-uppercase !text-white text-start fw-9 mb-0 title-anim textSize" style={{ color: "white !important" }}>
                     Realitai :{" "}
                     <span className="text-stroke">Empowering business </span>

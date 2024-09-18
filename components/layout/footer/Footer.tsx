@@ -53,8 +53,8 @@ const Footer = () => {
           </div>
           <div className="col-12 col-lg-2 col-xl-2">
             <div className="footer__single">
-              <div className="footer__single-intro" style={{ color: "white !important" }}>
-                <h5 style={{ color: "white !important" }}>discover</h5>
+              <div className="footer__single-intro" style={{ color: "white" }}>
+                <h5 style={{ color: "white" }}>discover</h5>
               </div>
               <div className="footer__single-content">
                 <ul>
@@ -76,11 +76,11 @@ const Footer = () => {
           </div>
           <div className="col-12 col-lg-5 col-xl-4">
             <div className="footer__single">
-              <div className="footer__single-intro" style={{ color: "white !important" }}>
-                <h5 style={{ color: "white !important" }}>Subscribe our newsletter</h5>
+              <div className="footer__single-intro" style={{ color: "white" }}>
+                <h5 style={{ color: "white" }}>Subscribe our newsletter</h5>
               </div>
-              <div className="footer__single-content" style={{ color: "white !important" }}>
-                <p style={{ color: "white !important" }}>
+              <div className="footer__single-content" style={{ color: "white" }}>
+                <p style={{ color: "white" }}>
                   Welcome to REALITAI We specialize in helping business most
                   like yours succeed online.
                 </p>
@@ -93,7 +93,7 @@ const Footer = () => {
                         id="subscribeNews"
                         placeholder="Enter Your Email"
                         required
-                        style={{ color: "white !important" }}
+                        style={{ color: "white" }}
                       />
                       <button type="submit" className="subscribe">
                         <i className="fa-sharp fa-solid fa-paper-plane"></i>
@@ -111,13 +111,9 @@ const Footer = () => {
               <div className="row align-items-center gaper">
                 <div className="col-12 col-lg-8">
                   <div className="footer__copyright-text text-center text-lg-start">
-                    <p style={{ color: "white !important" }}>
+                    <p style={{ color: "white" }}>
                       Copyright &copy;
-                      <span id="copyYear">{currentYear}</span> A Venture by{" "}
-                      <Link href="#" target="_blank">
-                        Realitai{" "}
-                      </Link>
-                      . All Rights Reserved
+                      <span id="copyYear">{currentYear}</span> 2024 by RealitAI. All Rights Reserved
                     </p>
                   </div>
                 </div>

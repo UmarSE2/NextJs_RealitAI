@@ -23,7 +23,7 @@ import dfive from "../../../public/images/projects/d-five.jpg";
 
 const ProjectDetailsMain = () => {
   return (
-    <section className="section project-d">
+    <section className="section project-d" style={{ padding: "60px 30px" }}>
       <div className="container">
         <div className="row gaper">
           <div className="col-12 col-lg-6">

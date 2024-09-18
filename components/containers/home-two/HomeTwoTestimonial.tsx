@@ -7,9 +7,9 @@ import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import star from "../../../public/images/testimonial/star.png";
 import thumb from "../../../public/images/testimonial/thumb.webp";
-import avatar7 from "../../../public/images/testimonial/avatar7.png";
-import avatar8 from "../../../public/images/testimonial/avatar8.png";
-import avatar9 from "../../../public/images/testimonial/avatar9.png";
+import avatar7 from "../../../public/images/AvatarBg.png";
+import avatar8 from "../../../public/images/AvatarBg.png";
+import avatar9 from "../../../public/images/AvatarBg.png";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeTwoTestimonial = () => {
@@ -79,7 +79,7 @@ const HomeTwoTestimonial = () => {
                     <div className="testimonial-two__slider-single">
                       <div className="paragraph">
                         <blockquote className="secondary-text">
-                          <q>
+                          <q style={{ color: "#17313b" }}>
                             The team at Realitai exceeded our expectations in
                             every way. From the initial consultation to the
                             final product, their professionalism and expertise
@@ -103,7 +103,7 @@ const HomeTwoTestimonial = () => {
                     <div className="testimonial-two__slider-single">
                       <div className="paragraph">
                         <blockquote className="secondary-text">
-                          <q>
+                          <q style={{ color: "#17313b" }}>
                             Working with Realitai was a fantastic experience.
                             They took our ideas and turned them into a robust,
                             user-friendly software solution. Their attention to
@@ -128,7 +128,7 @@ const HomeTwoTestimonial = () => {
                     <div className="testimonial-two__slider-single">
                       <div className="paragraph">
                         <blockquote className="secondary-text">
-                          <q>
+                          <q style={{ color: "#17313b" }}>
                             We approached Realitai with a complex software
                             development project, and they delivered beyond our
                             expectations. Their team is highly skilled,
